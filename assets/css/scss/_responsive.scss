@@ -1,0 +1,197 @@
+@media only screen and (min-width: 0) {
+  .container-main {
+    .container-pic {
+      .description-responsive {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;
+      }
+      .img-portfolio {
+        width: 285px !important;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 576px) {
+  .menu {
+    display: none;
+  }
+  .container-nav {
+    .title-name {
+      text-align: center !important;
+    }
+  }
+  .container-pic {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    .col-portfolio {
+      display: flex !important;
+      justify-content: center !important;
+    }
+    .major {
+      font-size: 15px !important;
+      text-align: center !important;
+    }
+
+    .description {
+      display: none;
+    }
+    .img-portfolio {
+      width: 550px !important;
+    }
+    .major-responsive {
+      width: 100% !important;
+      .description-responsive {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;
+      }
+    }
+  }
+  .about-me-description {
+    line-height: 2 !important;
+    text-align: center !important;
+    p {
+      font-size: 14px !important;
+      font-family: "merri" !important;
+    }
+  }
+
+  .about-solidworks-model {
+    font-family: "merri" !important;
+    font-size: 14px !important;
+    margin-top: 10px !important;
+    line-height: 2 !important;
+  }
+
+  .about-solidworks {
+    font-family: "merri" !important;
+    font-size: 14px !important;
+    margin-top: 10px !important;
+    line-height: 2 !important;
+  }
+
+  .about-model-testing {
+    font-family: "merri" !important;
+    font-size: 14px !important;
+    margin-top: 10px !important;
+    line-height: 2 !important;
+  }
+
+  .col-foot {
+    p {
+      font-family: "merri" !important;
+      font-size: 14px !important;
+      margin-top: 10px !important;
+      line-height: 2 !important;
+    }
+  }
+
+  .description-vehicle {
+    font-family: "merri" !important;
+    font-size: 14px !important;
+    margin-top: 10px !important;
+    line-height: 2 !important;
+  }
+
+  .description-modix {
+    font-family: "merri" !important;
+    font-size: 14px !important;
+    margin-top: 10px !important;
+    line-height: 2 !important;
+  }
+
+  .description-designs2 {
+    p {
+      font-family: "merri" !important;
+      font-size: 14px !important;
+      margin-top: 10px !important;
+      line-height: 2 !important;
+    }
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .container-main {
+    .major {
+      text-align: center !important;
+    }
+    .container-pic {
+      .col-portfolio {
+        display: flex !important;
+        justify-content: center !important;
+      }
+      .img-portfolio {
+        width: 600px !important;
+      }
+      .description-responsive {
+        display: none !important;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container-main {
+    .major {
+      text-align: left !important;
+    }
+    .container-pic {
+      .img-portfolio {
+        width: 400px !important;
+      }
+      .description-responsive {
+        display: none !important;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container-main {
+    .container-pic {
+      .img-portfolio {
+        width: 300px !important;
+      }
+    }
+  }
+  .title-solidworks-model {
+    margin-bottom: 15px !important;
+  }
+  .title-3d {
+    margin-bottom: 15px !important;
+    margin-top: 45px !important;
+  }
+
+  .title-model-testing {
+    margin-bottom: 15px !important;
+    margin-top: 45px !important;
+  }
+
+  .container
+    .container-about-me
+    .col-about-me-left
+    .image-lab
+    .carousel-item
+    img {
+    width: 100% !important;
+    height: 230px !important;
+  }
+
+  .title-foot {
+    p {
+      margin-bottom: 15px !important;
+    }
+  }
+}

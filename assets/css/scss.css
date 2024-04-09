@@ -1,0 +1,512 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  background-color: #080808 !important;
+  color: #fff !important;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: merri;
+  src: url("/assets/fonts/Merriweather-Bold.ttf");
+}
+@font-face {
+  font-family: riot;
+  src: url("/assets/fonts/ProtestRiot-Regular.ttf");
+}
+.container .container-nav {
+  margin-top: 15px;
+}
+.container .container-nav .row-nav {
+  align-items: center;
+}
+.container .container-nav .row-nav .title-name {
+  font-family: "merri";
+  font-size: 35px;
+  font-weight: bold;
+}
+.container .container-nav .row-nav .title-name p span {
+  color: rgb(11, 130, 194);
+}
+.container .container-nav .row-nav .nav-top .nav-ul {
+  display: flex;
+  justify-content: space-between;
+}
+.container .container-nav .row-nav .nav-top .nav-ul .nav-lists a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.container .container-nav .row-nav .nav-top .nav-ul .nav-lists a:hover {
+  color: rgb(11, 130, 194);
+}
+.container .container-pic {
+  margin-top: 100px;
+}
+.container .container-pic .row-pic {
+  align-items: center;
+}
+.container .container-pic .row-pic .major {
+  font-family: "merri";
+  font-size: 28px;
+  color: rgb(11, 130, 194);
+  font-weight: bold;
+}
+.container .container-pic .row-pic .description {
+  font-family: "merri";
+  font-size: 25px;
+}
+.container .container-pic .row-pic .img-portfolio {
+  width: 600px;
+  float: right;
+}
+.container .container-pic .row-pic .img-portfolio img {
+  width: 100%;
+  height: 100%;
+}
+.container .container-about-me {
+  margin-top: 130px;
+}
+.container .container-about-me .row-about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .container-about-me .col-about-me-left .image-lab .carousel-item img {
+  width: 65% !important;
+  height: 300px !important;
+}
+.container .container-about-me .col-about-me-right .about-me h1 {
+  color: rgb(11, 130, 194);
+  font-family: "merri";
+  text-align: center;
+  margin-top: 15px;
+}
+.container .container-about-me .col-about-me-right .about-me .about-me-description {
+  line-height: normal;
+  text-align: justify;
+}
+.container .container-about-me .col-about-me-right .about-me .about-me-description p {
+  font-size: 17px;
+  font-family: "merri";
+  text-align: justify;
+}
+.container .container-designs {
+  margin-top: 100px;
+}
+.container .container-designs .row {
+  text-align: justify;
+}
+.container .container-designs .row .title-portfolio {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  color: rgb(11, 130, 194);
+}
+.container .container-designs .row .title-solidworks-model {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  color: rgb(11, 130, 194);
+}
+.container .container-designs .row .title-3d {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  color: rgb(11, 130, 194);
+}
+.container .container-designs .row .title-model-testing {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  color: rgb(11, 130, 194);
+}
+.container .container-designs .row .title-foot {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  color: rgb(11, 130, 194);
+}
+.container .container-designs .row .about-solidworks {
+  font-family: "merri";
+  font-size: 18px;
+  margin-top: 10px;
+}
+.container .container-designs .row .about-solidworks-model {
+  font-family: "merri";
+  font-size: 18px;
+  margin-top: 10px;
+}
+.container .container-designs .row .about-model-testing {
+  font-family: "merri";
+  font-size: 18px;
+  margin-top: 10px;
+}
+.container .container-design-foot {
+  margin-top: 50px;
+}
+.container .container-design-foot .row {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+.container .container-design-foot .row .col-head-foot {
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+.container .container-design-foot .row .col-head-foot .title-foot-head {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  color: rgb(11, 130, 194);
+}
+.container .container-design-foot .design-foot {
+  text-align: justify;
+}
+.container .container-design-foot .design-foot .title-foot p {
+  text-align: justify;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  color: rgb(11, 130, 194);
+}
+.container .container-design-foot .design-foot .container-foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .container-design-foot .design-foot .container-foot .image-foot {
+  width: 350px;
+}
+.container .container-design-foot .design-foot .container-foot .image-foot img {
+  width: 100%;
+}
+.container .container-design-foot .title-head-foot {
+  text-align: justify;
+}
+.container .container-description-foot .row-foot {
+  text-align: justify;
+}
+.container .container-description-foot .row-foot .col-foot p {
+  font-family: "merri";
+  font-size: 18px;
+  margin-top: 20px;
+}
+.container .container-vehicle .row-vehicle {
+  text-align: justify;
+}
+.container .container-vehicle .row-vehicle .col-vehicle .image-vehicle {
+  margin-top: 25px;
+}
+.container .container-vehicle .row-vehicle .col-vehicle .image-vehicle img {
+  width: 100%;
+}
+.container .container-vehicle .row-vehicle .col-vehicle .description-vehicle {
+  font-family: "merri";
+  font-size: 18px;
+  margin-top: 20px;
+}
+.container .container-vehicle .row-vehicle .col-title-vehicle p {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-bottom: 0px;
+  margin-top: 55px;
+  margin-top: 50px;
+  color: rgb(11, 130, 194);
+}
+.container .container-modix {
+  margin-top: 40px;
+}
+.container .container-modix .row {
+  text-align: justify;
+}
+.container .container-modix .row .col-title-modix {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  color: rgb(11, 130, 194);
+}
+.container .container-modix .row .col-modix .image-modix {
+  margin-top: 25px;
+}
+.container .container-modix .row .col-modix .image-modix img {
+  width: 100%;
+}
+.container .container-modix .row .col-modix .description-modix {
+  font-family: "merri";
+  font-size: 18px;
+  margin-top: 20px;
+}
+.container .container-designs2 {
+  margin-top: 30px;
+}
+.container .container-designs2 .row .col-title-designs p {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  color: rgb(11, 130, 194);
+  margin-bottom: 35px;
+}
+.container .container-designs2 .row .col-designs2 img {
+  width: 100%;
+}
+.container .container-designs2 .row .col-designs2 .description-designs2 {
+  text-align: center;
+}
+.container .container-designs2 .row .col-designs2 .description-designs2 p {
+  font-family: "merri";
+  font-size: 18px;
+  margin-top: 30px !important;
+  margin-bottom: 40px !important;
+}
+.container .container-contact-me {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.container .container-contact-me .row-contact {
+  text-align: center;
+}
+.container .container-contact-me .row-contact .col-contact-me .title-contact-me p {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  color: rgb(11, 130, 194);
+  margin-top: 50px;
+}
+.container .container-contact-me .row-contact .col-contact-me .email p {
+  font-size: 15px;
+  margin-top: 20px;
+}
+.container .container-contact-me .row-contact .col-contact-me .email span {
+  padding-right: 10px;
+}
+.container .container-contact-me .row-contact .col-contact-me .phone-number span {
+  padding-right: 10px;
+}
+.container .container-contact-me .row-contact .col-contact-me .title-grab {
+  font-size: 15px;
+}
+.container .container-contact-me .row-contact .col-contact-me .grab .btn {
+  color: rgb(11, 130, 194);
+  background-color: rgb(51, 44, 37);
+  margin-bottom: 10px;
+}
+.container .container-contact-me .row-contact .col-contact-me .cv {
+  margin-bottom: 10px !important;
+}
+.container .container-contact-me .row-contact .col-contact-me .cv .btn {
+  color: rgb(11, 130, 194);
+  background-color: rgb(51, 44, 37);
+}
+
+@media only screen and (min-width: 0) {
+  .container-main .container-pic .description-responsive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+  }
+  .container-main .container-pic .img-portfolio {
+    width: 285px !important;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .menu {
+    display: none;
+  }
+  .container-nav .title-name {
+    text-align: center !important;
+  }
+  .container-pic {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .container-pic .col-portfolio {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .container-pic .major {
+    font-size: 15px !important;
+    text-align: center !important;
+  }
+  .container-pic .description {
+    display: none;
+  }
+  .container-pic .img-portfolio {
+    width: 550px !important;
+  }
+  .container-pic .major-responsive {
+    width: 100% !important;
+  }
+  .container-pic .major-responsive .description-responsive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+  }
+  .about-me-description {
+    line-height: 2 !important;
+    text-align: center !important;
+  }
+  .about-me-description p {
+    font-size: 14px !important;
+    font-family: "merri" !important;
+  }
+  .about-solidworks-model {
+    font-family: "merri" !important;
+    font-size: 14px !important;
+    margin-top: 10px !important;
+    line-height: 2 !important;
+  }
+  .about-solidworks {
+    font-family: "merri" !important;
+    font-size: 14px !important;
+    margin-top: 10px !important;
+    line-height: 2 !important;
+  }
+  .about-model-testing {
+    font-family: "merri" !important;
+    font-size: 14px !important;
+    margin-top: 10px !important;
+    line-height: 2 !important;
+  }
+  .col-foot p {
+    font-family: "merri" !important;
+    font-size: 14px !important;
+    margin-top: 10px !important;
+    line-height: 2 !important;
+  }
+  .description-vehicle {
+    font-family: "merri" !important;
+    font-size: 14px !important;
+    margin-top: 10px !important;
+    line-height: 2 !important;
+  }
+  .description-modix {
+    font-family: "merri" !important;
+    font-size: 14px !important;
+    margin-top: 10px !important;
+    line-height: 2 !important;
+  }
+  .description-designs2 p {
+    font-family: "merri" !important;
+    font-size: 14px !important;
+    margin-top: 10px !important;
+    line-height: 2 !important;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .container-main .major {
+    text-align: center !important;
+  }
+  .container-main .container-pic .col-portfolio {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .container-main .container-pic .img-portfolio {
+    width: 600px !important;
+  }
+  .container-main .container-pic .description-responsive {
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .container-main .major {
+    text-align: left !important;
+  }
+  .container-main .container-pic .img-portfolio {
+    width: 400px !important;
+  }
+  .container-main .container-pic .description-responsive {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container-main .container-pic .img-portfolio {
+    width: 300px !important;
+  }
+  .title-solidworks-model {
+    margin-bottom: 15px !important;
+  }
+  .title-3d {
+    margin-bottom: 15px !important;
+    margin-top: 45px !important;
+  }
+  .title-model-testing {
+    margin-bottom: 15px !important;
+    margin-top: 45px !important;
+  }
+  .container .container-about-me .col-about-me-left .image-lab .carousel-item img {
+    width: 100% !important;
+    height: 230px !important;
+  }
+  .title-foot p {
+    margin-bottom: 15px !important;
+  }
+}/*# sourceMappingURL=scss.css.map */

@@ -1,0 +1,364 @@
+.container {
+  .container-nav {
+    margin-top: 15px;
+    .row-nav {
+      align-items: center;
+      .title-name {
+        font-family: "merri";
+        font-size: 35px;
+        font-weight: bold;
+        p {
+          span {
+            color: rgb(11, 130, 194);
+          }
+        }
+      }
+      .nav-top {
+        .nav-ul {
+          display: flex;
+          justify-content: space-between;
+          .nav-lists {
+            a {
+              text-decoration: none;
+              color: #fff;
+              font-size: 20px;
+              font-weight: bolder;
+              &:hover {
+                color: rgb(11, 130, 194);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .container-pic {
+    margin-top: 100px;
+    .row-pic {
+      align-items: center;
+      .major {
+        font-family: "merri";
+        font-size: 28px;
+        color: rgb(11, 130, 194);
+        font-weight: bold;
+      }
+
+      .description {
+        font-family: "merri";
+        font-size: 25px;
+      }
+      .img-portfolio {
+        width: 600px;
+        float: right;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  .container-about-me {
+    .row-about-me {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    margin-top: 130px;
+    .col-about-me-left {
+      .image-lab {
+        .carousel-item img {
+          width: 65% !important;
+          height: 300px !important;
+        }
+      }
+    }
+
+    .col-about-me-right {
+      .about-me {
+        h1 {
+          color: rgb(11, 130, 194);
+          font-family: "merri";
+          text-align: center;
+          margin-top: 15px;
+        }
+
+        .about-me-description {
+          line-height: normal;
+          text-align: justify;
+          p {
+            font-size: 17px;
+            font-family: "merri";
+            text-align: justify;
+          }
+        }
+      }
+    }
+  }
+  .container-designs {
+    margin-top: 100px;
+    .row {
+      .title-portfolio {
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 40px;
+        font-weight: bolder;
+        margin-bottom: 10px;
+        color: rgb(11, 130, 194);
+      }
+      text-align: justify;
+      .title-solidworks-model {
+        text-align: center;
+        font-size: 25px;
+        font-weight: bolder;
+        margin-bottom: 10px;
+        color: rgb(11, 130, 194);
+      }
+      .title-3d {
+        text-align: center;
+        font-size: 25px;
+        font-weight: bolder;
+        margin-bottom: 10px;
+        color: rgb(11, 130, 194);
+      }
+      .title-model-testing {
+        text-align: center;
+        font-size: 25px;
+        font-weight: bolder;
+        margin-bottom: 10px;
+        color: rgb(11, 130, 194);
+      }
+      .title-foot {
+        text-align: center;
+        font-size: 20px;
+        font-weight: bolder;
+        margin-bottom: 10px;
+        color: rgb(11, 130, 194);
+      }
+
+      .about-solidworks {
+        font-family: "merri";
+        font-size: 18px;
+        margin-top: 10px;
+      }
+
+      .about-solidworks-model {
+        font-family: "merri";
+        font-size: 18px;
+        margin-top: 10px;
+      }
+
+      .about-model-testing {
+        font-family: "merri";
+        font-size: 18px;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .container-design-foot {
+    margin-top: 50px;
+    .row {
+      margin-bottom: 15px;
+      text-align: justify;
+      .col-head-foot {
+        margin-bottom: 15px;
+        margin-top: 25px;
+        .title-foot-head {
+          text-align: center;
+          font-size: 25px;
+          font-weight: bolder;
+          margin-bottom: 10px;
+          color: rgb(11, 130, 194);
+        }
+      }
+    }
+    .design-foot {
+      text-align: justify;
+      .title-foot {
+        p {
+          text-align: justify;
+          font-size: 20px;
+          font-weight: bolder;
+          margin-bottom: 10px;
+          color: rgb(11, 130, 194);
+        }
+      }
+      .container-foot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .image-foot {
+          width: 350px;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    .title-head-foot {
+      text-align: justify;
+    }
+  }
+
+  .container-description-foot {
+    .row-foot {
+      text-align: justify;
+      .col-foot {
+        p {
+          font-family: "merri";
+          font-size: 18px;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+
+  .container-vehicle {
+    .row-vehicle {
+      text-align: justify;
+      .col-vehicle {
+        .image-vehicle {
+          margin-top: 25px;
+          img {
+            width: 100%;
+          }
+        }
+        .description-vehicle {
+          font-family: "merri";
+          font-size: 18px;
+          margin-top: 20px;
+        }
+      }
+      .col-title-vehicle {
+        p {
+          text-align: center;
+          font-size: 25px;
+          font-weight: bolder;
+          margin-bottom: 0px;
+          margin-top: 55px;
+          margin-top: 50px;
+          color: rgb(11, 130, 194);
+        }
+      }
+    }
+  }
+
+  .container-modix {
+    margin-top: 40px;
+    .row {
+      .col-title-modix {
+        text-align: center;
+        font-size: 25px;
+        font-weight: bolder;
+        margin-bottom: 0px;
+        margin-top: 20px;
+        color: rgb(11, 130, 194);
+      }
+      text-align: justify;
+      .col-modix {
+        .image-modix {
+          margin-top: 25px;
+          img {
+            width: 100%;
+          }
+        }
+        .description-modix {
+          font-family: "merri";
+          font-size: 18px;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+
+  .container-designs2 {
+    margin-top: 30px;
+    .row {
+      .col-title-designs {
+        p {
+          text-align: center;
+          font-size: 25px;
+          font-weight: bolder;
+          margin-bottom: 10px;
+          margin-top: 50px;
+          color: rgb(11, 130, 194);
+          margin-bottom: 35px;
+        }
+      }
+
+      .col-designs2 {
+        img {
+          width: 100%;
+        }
+        .description-designs2 {
+          text-align: center;
+          p {
+            font-family: "merri";
+            font-size: 18px;
+            margin-top: 30px !important;
+            margin-bottom: 40px !important;
+          }
+        }
+      }
+    }
+  }
+
+  .container-contact-me {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    .row-contact {
+      text-align: center;
+      .col-contact-me {
+        .title-contact-me {
+          p {
+            text-align: center;
+            font-size: 25px;
+            font-weight: bolder;
+            margin-bottom: 10px;
+            color: rgb(11, 130, 194);
+            margin-top: 50px;
+          }
+        }
+
+        .email {
+          p {
+            font-size: 15px;
+            margin-top: 20px;
+          }
+          span {
+            padding-right: 10px;
+          }
+        }
+
+        .phone-number {
+          span {
+            padding-right: 10px;
+          }
+        }
+
+        .title-grab {
+          font-size: 15px;
+        }
+
+        .grab {
+          .btn {
+            color: rgb(11, 130, 194);
+            background-color: rgb(51, 44, 37);
+            margin-bottom: 10px;
+          }
+        }
+
+        .cv {
+          margin-bottom: 10px !important;
+          .btn {
+            color: rgb(11, 130, 194);
+            background-color: rgb(51, 44, 37);
+          }
+        }
+      }
+    }
+  }
+}
