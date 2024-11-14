@@ -119,8 +119,9 @@ table {
 }
 .container .container-about-me .col-about-me-left .image-lab .carousel-item img {
   width: 65% !important;
-  height: 300px !important;
+  height: 400px !important;
 }
+
 .container .container-about-me .col-about-me-right .about-me h1 {
   color: rgb(11, 130, 194);
   font-family: "merri";
@@ -510,3 +511,8 @@ table {
     margin-bottom: 15px !important;
   }
 }/*# sourceMappingURL=scss.css.map */
+
+.foot-item img {
+  height: 340px !important;
+  width: 100% !important;
+}
